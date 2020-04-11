@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Login from './pages/Login'
 
-function App() {
-  return (
-    <h1>Hello</h1>
+import GlobalStyle from './styles/global'
+
+const App = () =>  (
+    <Fragment>
+      <Login />
+      <GlobalStyle />
+    </Fragment>
   )
-}
 
-export default App;
+
+export default App
